@@ -9,5 +9,3 @@ version          '0.1.0'
 recipe 'wkhtmltopdf', 'Installs wkhtmltopdf'
 
 supports 'ubuntu'
-
-depends 'apt'
