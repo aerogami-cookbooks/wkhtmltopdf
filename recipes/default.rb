@@ -4,6 +4,8 @@
 #
 # Copyright (C) 2014 Mohamad El-Husseini
 #
+# Apache 2.0
+#
 
 bash 'update apt' do
   user 'root'

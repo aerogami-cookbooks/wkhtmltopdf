@@ -1,25 +1,29 @@
 # wkhtmltopdf cookbook
 
-Installs wkhtmltopdf from binary.
+This cookbook installs `wkhtmltopdf`, a library to convert HTML into PDF.
 
 # Requirements
 
-`apt` and Ubuntu.
+This cookbook requires `apt`.
 
 # Usage
 
-Include cookbook in your `Berksfile`.
+Include this cookbook in your `Berksfile`.
 
 ````
-cookbook 'wkhtmltopdf', github: 'aerogami-cookbooks/wkhtmltopdf'
+cookbook 'nodejs', git: 'aerogami-cookbooks/nodejs'
 ````
 
-Then install.
+Install the cookbook.
 
 ````
 berks install
 ````
 
+Add to your chef kitchen and use as desired.
+
 # Author
 
-Mohamad El-Husseini, mo@aerogami.com.br.
+Mohamad El-Husseini
+
+www.aerogami.com.br
